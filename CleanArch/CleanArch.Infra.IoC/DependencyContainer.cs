@@ -1,8 +1,8 @@
-﻿using CleanArch.Application.Interfaces;
-using CleanArch.Application.Services;
-using CleanArch.Domain.Interfaces;
-using CleanArch.Domain.Models;
-using CleanArch.Infra.Data.Repository;
+﻿using UMS.CleanArch.Application.Interfaces;
+using UMS.CleanArch.Application.Services;
+using UMS.CleanArch.Domain.Interfaces;
+using UMS.CleanArch.Domain.Models;
+using UMS.CleanArch.Infra.Data.Repository;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Infra.IoC
+namespace UMS.CleanArch.Infra.IoC
 {
     public class DependencyContainer
     {

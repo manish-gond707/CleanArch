@@ -1,7 +1,7 @@
 using CleanArc.Mvc.Data;
-using CleanArch.Domain.Models;
-using CleanArch.Infra.Data.Context;
-using CleanArch.Infra.IoC;
+using UMS.CleanArch.Domain.Models;
+using UMS.CleanArch.Infra.Data.Context;
+using UMS.CleanArch.Infra.IoC;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

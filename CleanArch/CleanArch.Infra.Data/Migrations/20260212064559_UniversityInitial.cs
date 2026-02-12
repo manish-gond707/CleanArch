@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace CleanArch.Infra.Data.Migrations
+namespace UMS.CleanArch.Infra.Data.Migrations
 {
     /// <inheritdoc />
     public partial class UniversityInitial : Migration

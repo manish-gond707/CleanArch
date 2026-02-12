@@ -16,11 +16,11 @@ namespace CleanArch.Application.Services
         {
             _courseRepository = courseRepository;
         }
-        public CourseViewModel GetCourses()
+        public async Task<CourseViewModel> GetCourses()
         {
             return new CourseViewModel()
             {
-                Courses = _courseRepository.GetCourses(),
+                Courses = await _courseRepository.GetCourses(),
             };
         }
     }

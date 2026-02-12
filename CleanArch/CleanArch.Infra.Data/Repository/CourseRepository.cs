@@ -1,6 +1,7 @@
 ﻿using CleanArch.Domain.Interfaces;
 using CleanArch.Domain.Models;
 using CleanArch.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,9 @@ namespace CleanArch.Infra.Data.Repository
             _context = context;
         }
 
-        public IEnumerable<Course> GetCourses()
+        public async Task<IEnumerable<Course>> GetCourses()
         {
-           return _context.Courses;
+           return await _context.Courses.ToListAsync();
         }
     }
 }

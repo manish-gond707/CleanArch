@@ -20,7 +20,7 @@ namespace CleanArch.Infra.Data.Repository
 
         public async Task<IEnumerable<Course>> GetCourses()
         {
-           return await _context.Courses.ToListAsync();
+           return await _context.Courses.AsNoTracking().ToListAsync();
         }
     }
 }

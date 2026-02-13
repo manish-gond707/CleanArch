@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7DC331D0-3EC4-40A6-69FB-1CBEB2E0D1EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Web", "CleanArc.Mvc\UMS.CleanArch.Web.csproj", "{0F0DF195-08CA-4B7A-8E31-7BA981E03C6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Web", "UMS.CleanArch.Web\UMS.CleanArch.Web.csproj", "{0F0DF195-08CA-4B7A-8E31-7BA981E03C6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Ioc", "Infra.Ioc", "{9121A41B-C0C9-41BE-9EC2-CFF7E970B004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Domain", "CleanArch.Domain\UMS.CleanArch.Domain.csproj", "{705F0101-3F00-4933-9B3C-0D419E1CA89B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Domain", "UMS.CleanArch.Domain\UMS.CleanArch.Domain.csproj", "{705F0101-3F00-4933-9B3C-0D419E1CA89B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Infrastructure", "CleanArch.Infra.Data\UMS.CleanArch.Infrastructure.csproj", "{54685C6C-1747-4C2E-B768-D189AD2347FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Infrastructure", "UMS.CleanArch.Infrastructure\UMS.CleanArch.Infrastructure.csproj", "{54685C6C-1747-4C2E-B768-D189AD2347FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Application", "CleanArch.Application\UMS.CleanArch.Application.csproj", "{DBD9A020-1D4C-42D5-B5CF-6F657088268F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Application", "UMS.CleanArch.Application\UMS.CleanArch.Application.csproj", "{DBD9A020-1D4C-42D5-B5CF-6F657088268F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.IoC", "CleanArch.Infra.IoC\UMS.CleanArch.IoC.csproj", "{FED08165-F9FD-42D7-92B6-E5708E051BCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.IoC", "UMS.CleanArch.IoC\UMS.CleanArch.IoC.csproj", "{FED08165-F9FD-42D7-92B6-E5708E051BCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

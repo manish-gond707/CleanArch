@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanArch.Domain\UMS.CleanArch.Domain.csproj" />
+    <ProjectReference Include="..\UMS.CleanArch.Domain\UMS.CleanArch.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Application",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.IoC", "UMS.CleanArch.IoC\UMS.CleanArch.IoC.csproj", "{FED08165-F9FD-42D7-92B6-E5708E051BCE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{11943F5A-C55B-49C9-90D7-7BC60DD66C9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{848A7E4F-15C6-4692-8AAA-97B57679D84B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -10,5 +10,7 @@ namespace UMS.CleanArch.Domain.Interfaces
     public interface ICourseRepository
     {
         Task<IEnumerable<Course>> GetCourses();
+
+        Task AddAsync(Course course);
     }
 }

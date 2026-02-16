@@ -18,6 +18,12 @@ namespace UMS.CleanArch.Infra.Data.Repository
             _context = context;
         }
 
+        public async Task AddAsync(Course course)
+        {
+            await _context.Courses.AddAsync(course);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<Course>> GetCourses()
         {
            return await _context.Courses.AsNoTracking().ToListAsync();

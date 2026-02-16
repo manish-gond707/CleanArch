@@ -27,9 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{848A7E4F-15C6-4692-8AAA-97B57679D84B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Bus", "CleanArch.Infra.Bus\CleanArch.Infra.Bus.csproj", "{F2ABE448-A57D-4436-B7FC-F99F6D163EFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Infra.Bus", "UMS.CleanArch.Infra.Bus\UMS.CleanArch.Infra.Bus.csproj", "{F2ABE448-A57D-4436-B7FC-F99F6D163EFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain.Core", "CleanArch.Domain.Core\CleanArch.Domain.Core.csproj", "{A0087432-948A-4EB4-B8B4-187145D76EE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.CleanArch.Domain.Core", "UMS.CleanArch.Domain.Core\UMS.CleanArch.Domain.Core.csproj", "{A0087432-948A-4EB4-B8B4-187145D76EE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

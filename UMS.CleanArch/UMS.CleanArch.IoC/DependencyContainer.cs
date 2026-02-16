@@ -9,6 +9,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MediatR;
+using UMS.CleanArch.Domain.Commands;
+using UMS.CleanArch.Domain.CommandHandlers;
+using UMS.CleanArch.Infra.Data.Context;
+using CleanArch.Domain.Core.Bus;
+using CleanArch.Infra.Bus;
 
 namespace UMS.CleanArch.Infra.IoC
 {
@@ -16,11 +22,18 @@ namespace UMS.CleanArch.Infra.IoC
     {
         public static IServiceCollection RegisterServices(IServiceCollection services)
         {
+            // Domain InMemoryBus MediatR
+            services.AddScoped<ImediatorHandler, InMemoryBus>();
+
+            // Domain Hanlders
+            services.AddScoped<IRequestHandler<CreateCourseCommand, bool>, CourseCommandHandler>();
+
             // Application Layer
             services.AddScoped<ICourseService, CourceService>();
 
             // Infra.Data Layer
             services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<UniversityDbContext>();
 
             return services;
         }

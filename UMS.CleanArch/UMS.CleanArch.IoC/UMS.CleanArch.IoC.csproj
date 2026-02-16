@@ -11,7 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CleanArch.Infra.Bus\UMS.CleanArch.Infra.Bus.csproj" />
     <ProjectReference Include="..\UMS.CleanArch.Application\UMS.CleanArch.Application.csproj" />
+    <ProjectReference Include="..\UMS.CleanArch.Domain.Core\UMS.CleanArch.Domain.Core.csproj" />
+    <ProjectReference Include="..\UMS.CleanArch.Infra.Bus\UMS.CleanArch.Infra.Bus.csproj" />
     <ProjectReference Include="..\UMS.CleanArch.Infrastructure\UMS.CleanArch.Infrastructure.csproj" />
   </ItemGroup>
 

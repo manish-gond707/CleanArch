@@ -6,16 +6,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CleanArch.Domain.Core.Bus;
+using System.Runtime.InteropServices;
+using UMS.CleanArch.Domain.Commands;
 
 namespace UMS.CleanArch.Application.Services
 {
     public class CourceService : ICourseService
     {
         private ICourseRepository _courseRepository;
-        public CourceService(ICourseRepository courseRepository)
+        private ImediatorHandler _bus;
+        public CourceService(ICourseRepository courseRepository, ImediatorHandler bus)
         {
             _courseRepository = courseRepository;
+            _bus = bus;
         }
+
+        public async Task Create(CourseViewModel courseViewModel)
+        {
+            var createCourseCommand = new CreateCourseCommand(
+                courseViewModel.Name,
+                courseViewModel.Description,
+                courseViewModel.ImageUrl
+           );
+            await _bus.SendCommand(createCourseCommand);
+        }
+
         public async Task<CourseViewModel> GetCourses()
         {
             return new CourseViewModel()

@@ -10,5 +10,6 @@ namespace UMS.CleanArch.Application.Interfaces
     public interface ICourseService
     {
         Task<CourseViewModel> GetCourses();
+        Task Create(CourseViewModel courseViewModel);
     }
 }

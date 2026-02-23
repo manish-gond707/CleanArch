@@ -1,11 +1,11 @@
-﻿using CleanArch.Domain.Core.Events;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UMS.CleanArch.Domain.Core.Events;
 
-namespace CleanArch.Domain.Core.Commands
+namespace UMS.CleanArch.Domain.Core.Commands
 {
     public abstract class Command: Message
     {

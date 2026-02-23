@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArch.Domain.Core.Events
+namespace UMS.CleanArch.Domain.Core.Events
 {
     public abstract class Message: IRequest<bool>
     {

@@ -1,13 +1,13 @@
-﻿using CleanArch.Domain.Core.Bus;
-using CleanArch.Domain.Core.Commands;
-using MediatR;
+﻿using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UMS.CleanArch.Domain.Core.Bus;
+using UMS.CleanArch.Domain.Core.Commands;
 
-namespace CleanArch.Infra.Bus
+namespace UMS.CleanArch.Infra.Bus
 {
     public class InMemoryBus: ImediatorHandler
     {

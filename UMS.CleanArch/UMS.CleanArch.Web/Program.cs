@@ -1,9 +1,9 @@
-using CleanArc.Mvc.Data;
 using UMS.CleanArch.Domain.Models;
 using UMS.CleanArch.Infra.Data.Context;
 using UMS.CleanArch.Infra.IoC;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using UMS.CleanArch.Web.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

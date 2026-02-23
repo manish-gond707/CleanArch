@@ -19,7 +19,7 @@ namespace UMS.CleanArch.Domain.CommandHandlers
             _courseRepository = courseRepository;
         }
 
-        public Task<bool> Handle(CreateCourseCommand request, CancellationToken cancellationToken)
+        public async Task<bool> Handle(CreateCourseCommand request, CancellationToken cancellationToken)
         {
             var course = new Course()
             {
@@ -27,9 +27,9 @@ namespace UMS.CleanArch.Domain.CommandHandlers
                 Description = request.Description,
                 ImageUrl = request.ImageUrl,
             };
-            _courseRepository.AddAsync(course);
+            await _courseRepository.AddAsync(course);
 
-            return Task.FromResult(true);
+            return await Task.FromResult(true);
         }
     }
 }

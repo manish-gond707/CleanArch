@@ -1,9 +1,9 @@
-﻿using CleanArch.Domain.Core.Commands;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UMS.CleanArch.Domain.Core.Commands;
 
 namespace UMS.CleanArch.Domain.Commands
 {

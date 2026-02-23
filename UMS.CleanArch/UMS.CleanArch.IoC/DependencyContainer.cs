@@ -13,8 +13,8 @@ using MediatR;
 using UMS.CleanArch.Domain.Commands;
 using UMS.CleanArch.Domain.CommandHandlers;
 using UMS.CleanArch.Infra.Data.Context;
-using CleanArch.Domain.Core.Bus;
-using CleanArch.Infra.Bus;
+using UMS.CleanArch.Domain.Core.Bus;
+using UMS.CleanArch.Infra.Bus;
 
 namespace UMS.CleanArch.Infra.IoC
 {
